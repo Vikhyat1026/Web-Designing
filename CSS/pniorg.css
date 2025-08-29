@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border-radius: var;
+}
+
+nav {
+  background-color: white;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 80px;
+  top: 0;
+  z-index: 1;
+  height: 65px;
+  position: fixed;
+}
+
+.menu a {
+  font-style: italic;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 0 5px;
+  padding-left: 5px;
+  font-weight: bold;
+  color: rgb(1, 29, 27);
+}
+
+.banner {
+  background: url(https://pninfosys.org/bannerFinal.jpg);
+  display: flex;
+  width: 100%;
+  height: 640px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+.firstpara {
+  flex: 0.3;
+  background: rgba(0, 113, 187, 0.82);
+  color: rgb(255, 255, 255);
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.firstpara h1 {
+  font-size: 40px;
+  margin-bottom: 15px;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 3rem;
+  line-height: 1.2;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+}
+
+.firstpara p {
+  font-size: 16px;
+  line-height: 1.7;
+  margin-top: 0;
+  margin-bottom: 1rcm;
+  text-align: justify;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+}
+
+.para p {
+  line-height: 1.7;
+  text-align: center;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  padding: 30px 43px;
+  font-weight: 500;
+  font-size: 1.25rem;
+}
+
+.para h1 {
+  line-height: 1.3;
+  text-align: center;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  padding-top: 30px;
+  color: rgb(25, 118, 210);
+  font-weight: 700;
+}
+
+.secondp {
+  background: url(https://pninfosys.org/contentBgTwo.jpg)rgba(0, 113, 187, 0.82);
+  background-repeat: no-repeat;
+  height: 1900px;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.secondpara {
+  top: 0;
+  width: 100%;
+  height: 1900px;
+  background: rgba(0, 113, 187, 0.82);
+  padding-left: 60px;
+  padding-right: 60px;
+  text-align: justify;
+  color: white;
+}
+
+.webd {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px;
+  font-family: Helvetica, Arial, sans-serif;
+  opacity: 1;
+} 
+.webdev{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.right {
+  width:50%;
+}
+
+.right img{
+  width: 25vw;
+  /* margin: 0 500px 0 500px ; */
+}
+.webleft {
+  width: 50%;
+  
+}
+.app {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.appleft {
+  width:50%;
+}
+.appimg img{
+  width:25vw;
+
+}
+
+.courses {
+  background: #ffffffb4;
+  width: 100%;
+  height: 990px;
+  padding: 100px 100px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+footer {
+  width: 100%;
+  height: 340px;
+  background: url(https://pninfosys.org/footerImage.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.d {
+  width: 100%;
+  padding: 50px 100px;
+  height: 100%;
+  background: rgba(0, 113, 187, 0.82);
+}
+.Contact {
+  display: flex;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  justify-content: space-between;
+  width: 100%;
+  padding: 20px;
+  color: white;
+  font-size: 20px;
+}
